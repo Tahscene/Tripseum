@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    background: #e4e9f7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    background-image: url('../img/19.jpg'); /* Path to your background image */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; /* Ensure it takes the full viewport height */
+    width: 100%;
+}
+
+.box {
+    background: rgba(255, 255, 255, 0.8); /* Slightly transparent white background */
+    display: flex;
+    flex-direction: column;
+    padding: 25px 25px;
+    border-radius: 20px;
+    box-shadow: 0 0 128px 0 rgba(0, 0, 0, 0.1),
+                0 32px 64px -48px rgba(0, 0, 0, 0.5);
+}
+
+.form-box {
+    width: 450px;
+    margin: 0px 10px;
+}
+
+.form-box header {
+    font-size: 25px;
+    font-weight: 600;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e6e6e6;
+    margin-bottom: 10px;
+}
+
+.form-box form .field {
+    display: flex;
+    margin-bottom: 10px;
+    flex-direction: column;
+}
+
+.form-box form .input input {
+    height: 40px;
+    width: 100%;
+    font-size: 16px;
+    padding: 0 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+.btn {
+    height: 35px;
+    background: rgba(76, 68, 182, 0.808);
+    border: 0;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all .3s;
+    margin-top: 10px;
+    padding: 0px 10px;
+}
+
+.btn:hover {
+    opacity: 0.82;
+}
+
+.submit {
+    width: 100%;
+}
+
+.links {
+    margin-bottom: 15px;
+}
+
+/********* Home *****************/
+
+.nav {
+    background: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    line-height: 60px;
+    z-index: 100;
+}
+
+.logo {
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #000;
+}
+
+.right-links a {
+    padding: 0 10px;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.main-box {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+.main-box .top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.bottom {
+    width: 100%;
+    margin-top: 20px;
+}
+
+@media only screen and (max-width: 840px) {
+    .main-box .top {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .top .box {
+        margin: 10px 10px;
+    }
+
+    .bottom {
+        margin-top: 0;
+    }
+}
+
+.message {
+    text-align: center;
+    background: #f9eded;
+    padding: 15px 0px;
+    border: 1px solid #699053;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    color: red;
+}
+
+.img-overlay {
+    position: absolute;
+    z-index: 5;
+    left: 50%;
+    top: 50%;
+    text-align: center;
+    width: 100%;
+    font-family: "ubuntu";
+    transform: translate(-50%, -50%);
+}
+
+.swiper {
+    height: 100vh;
+}
+
+.slide-container {
+    width: 100%;
+}
+
+.img-overlay p {
+    font-size: 1rem;
+    letter-spacing: 8px;
+    color: white;
+    animation: animate 4s forwards;
+}
+
+.img-overlay h2 {
+    font-size: 3.5rem;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    transition: all 0.5s ease-out;
+}
+
+.overlay {
+    position: relative;
+}
+
+.overlay::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.slide-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+@keyframes animate {
+    0% {
+        transform: translateX(-50%);
+        opacity: 0;
+    }
+    50% {
+        opacity: 0.2;
+    }
+    70% {
+        opacity: 0.5;
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(-0%);
+    }
+}

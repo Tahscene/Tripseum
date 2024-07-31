@@ -11,24 +11,25 @@
 </head>
 
 <body>
+    <!--home-->
     <header>
         <div class="container">
             <nav>
                 <div class="logo">
                  
-
-
-                </div>
+ </div>
                 <ul>
                     <div class="btn">
                         <i class="fas fa-times close-btn"></i>
                     </div>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Book</a></li>
-                    <li><a href="#">Tours</a></li>
-                    <li><a href="#">Destination</a></li>
-                    <li><a href="#">Gallery</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="book.html">Book</a></li>
+                    <li><a href="tours.html">Tours</a></li>
+                    <li><a href="destination.html">Destination</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="index.php">Login</a></li>
+                    <li><a href="register.php">Sign Up</a></li>
                 </ul>
                 <div class="btn">
                     <i class="fas fa-bars menu-btn"></i>
@@ -91,16 +92,18 @@
                 </select>
                 <select class="form-control">
                     <option value="Duration"> Duration</option>
-                    <option value="Day-1">1 Day Tour</option>
-                    <option value="2-4 Days">2-4 Days Tour</option>
-                    <option value="5-7 Days">5-7 Days Tour</option>
-                    <option value="7+ Days"> 7+ Days</option>
+                    <option value="Day-1">5 Day Tour</option>
+                    <option value="2-4 Days">5-10 Days Tour</option>
+                    <option value="5-7 Days">10-15 Days Tour</option>
+                    <option value="7+ Days"> 15+ Days</option>
                 </select>
                 <button type="button" class="primary-btn">Search Now</button>
             </form>
         </div>
         </div>
  </section>
+
+ <!--about-->
  <section id="about">
     <div class="container">
         <div class="about-container-wrapper">
@@ -145,36 +148,37 @@
     </div>
     </div>
  </section>  
- 
+ <!--popular-->
  <section id="choose-place">
     <div class="container">
         <p class="heading-normal-txt">CHOOSE YOUR PLACE</p>
         <h2 class="headings">POPULAR <span>TOURS</span> </h2>
         <div class="choose-wrapper">
             <div class="image-left-side">  
-                <div class="lg-img">
-                    <img src="./img/10.jpg"alt="">
+                <div class="lg-img" onclick="window.location.href='bd.html';" style="cursor: pointer;">
+                    <img src="./img/10.jpg" alt="">
                     <div class="img-content">
-                        <h2> Bangladesh Tour</h2>
+                        <h2>Bangladesh Tour</h2>
                         <div class="hidden-content">
-                            <span> <i class="fa fa-clock"></i> 10 Days </span>
-                            <span> <i class="fa fa-user"></i> 12+ </span>
-                            <span> <i class="fa fa-location-dot"></i> Bangladesh </span>
+                            <span><i class="fa fa-clock"></i> 10 Days</span>
+                            <span><i class="fa fa-user"></i> 120+</span>
+                            <span><i class="fa fa-location-dot"></i> Bangladesh</span>
                         </div>
                     </div>
                     <div class="price-label">
-                        <p> $200 </p>
+                        <p>$200</p>
                     </div>
                 </div>
             </div>
+            
             <div class="image-right-side">  
-                <div class="lg-img">
+                <div class="lg-img" onclick="window.location.href='india.html';" style="cursor: pointer;">
                     <img src="./img/9.jpg"alt="">
                     <div class="img-content">
                         <h2> India Tour</h2>
                         <div class="hidden-content">
-                            <span> <i class="fa fa-clock"></i> 10 Days </span>
-                            <span> <i class="fa fa-user"></i> 12+ </span>
+                            <span> <i class="fa fa-clock"></i> 5 Days </span>
+                            <span> <i class="fa fa-user"></i> 100+ </span>
                             <span> <i class="fa fa-location-dot"></i> India </span>
                         </div>
                     </div>
@@ -185,7 +189,7 @@
             </div>
         </div>
         <div class="row-wise-image">
-            <div class="lg-img">
+            <div class="lg-img" onclick="window.location.href='france.html';" style="cursor: pointer;">
                 <img src="./img/france1.jpg"alt="">
                 <div class="img-content">
                     <h2> France Tour</h2>
@@ -199,13 +203,13 @@
                     <p> $700 </p>
                 </div>
             </div>
-            <div class="lg-img">
+            <div class="lg-img" onclick="window.location.href='greece.html';" style="cursor: pointer;">
                 <img src="./img/greece1.jpg"alt="">
                 <div class="img-content">
                     <h2> Greece Tour</h2>
                     <div class="hidden-content">
-                        <span> <i class="fa fa-clock"></i> 10 Days </span>
-                        <span> <i class="fa fa-user"></i> 12+ </span>
+                        <span> <i class="fa fa-clock"></i> 7 Days </span>
+                        <span> <i class="fa fa-user"></i> 60+ </span>
                         <span> <i class="fa fa-location-dot"></i> Greece </span>
                     </div>
                 </div>
@@ -213,13 +217,13 @@
                     <p> $300 </p>
                 </div>
             </div>
-            <div class="lg-img">
+            <div class="lg-img" onclick="window.location.href='canada.html';" style="cursor: pointer;">
                 <img src="./img/canada1.jpg"alt="">
                 <div class="img-content">
                     <h2> Canada Tour</h2>
                     <div class="hidden-content">
-                        <span> <i class="fa fa-clock"></i> 10 Days </span>
-                        <span> <i class="fa fa-user"></i> 12+ </span>
+                        <span> <i class="fa fa-clock"></i> 15 Days </span>
+                        <span> <i class="fa fa-user"></i> 50+ </span>
                         <span> <i class="fa fa-location-dot"></i> Canada </span>
                     </div>
                 </div>
@@ -230,7 +234,7 @@
         </div>
     </div>
     </section>
-    
+    <!--counter-->
     <section id="static-counter">
         <div class="container">
             <div class="static-wrapper">
@@ -257,7 +261,7 @@
             </div>
         </div>
     </section>
-    
+    <!--destination-->
     <section id="top-destination">
         <div class="container">
             <p class="heading-normal-txt">TOP DESTINATION</p>
@@ -271,7 +275,7 @@
                                 <h2><i class="fa fa-location-dot"></i>Maldives</h2>
                                 <div class="hidden-content-carousel">
                                     <span> 4-Day Tour Package </span>
-                                    <a href="#"
+                                    <a href="maldives.html"
                                     ><span>Explore</span><i class="fa fa-arrow-right"></i
                                     ></a>
                                 </div>
@@ -288,24 +292,24 @@
                                 <h2><i class="fa fa-location-dot"></i>Australia</h2>
                                 <div class="hidden-content-carousel">
                                     <span> 7-Day Tour Package </span>
-                                    <a href="#"
+                                    <a href="aust.html"
                                     ><span>Explore</span><i class="fa fa-arrow-right"></i
                                     ></a>
                                 </div>
                             </div>
                         </div>
                         <div class="price-label">
-                            <p> $600</p>
+                            <p> $1600</p>
                         </div>
                     </div>
                     <div class="carousel swiper-slide">
-                        <img src="./img/14.jpg" alt="">
+                        <img src="./img/por.jpg" alt="">
                         <div class="carousel-img-overlay">
                             <div class="img-content">
-                                <h2><i class="fa fa-location-dot"></i>Nepal</h2>
+                                <h2><i class="fa fa-location-dot"></i>Portugal</h2>
                                 <div class="hidden-content-carousel">
                                     <span> 6-Day Tour Package </span>
-                                    <a href="#"
+                                    <a href="portugal1.html"
                                     ><span>Explore</span><i class="fa fa-arrow-right"></i
                                     ></a>
                                 </div>
@@ -322,7 +326,7 @@
                                 <h2><i class="fa fa-location-dot"></i>France</h2>
                                 <div class="hidden-content-carousel">
                                     <span> 10-Day Tour Package </span>
-                                    <a href="#"
+                                    <a href="france1.html"
                                     ><span>Explore</span><i class="fa fa-arrow-right"></i
                                     ></a>
                                 </div>
@@ -338,7 +342,7 @@
         </div>
     </section>
     
-
+<!--video-->
     <section id="costa-victoria">
         
 
@@ -351,15 +355,15 @@
         <div class="container">
             <div class="video-content">
                 <h2>Aurora Borealis</h2>
-                <span><i class="fa fa-clock"></i> 10 days</span>
-                <span><i class="fa fa-user"></i> 12+</span>
+                <span><i class="fa fa-clock"></i> 7 days</span>
+                <span><i class="fa fa-user"></i> 30+</span>
                 <span><i class="fa fa-user"></i> Norway</span>
     
             </div>
         </div>
     
     </section>
-    
+   <!--popular tour--> 
     <section id="travel-countries">
         <div class="container">
            <p class="heading-normal-txt">MOST POPULAR</p>
@@ -394,9 +398,10 @@
     
                     </div>
                 </ul>
-                <button type="button" class="primary-btn">
+                <button type="button" class="primary-btn" onclick="window.location.href='tours.html'">
                     ALL Tours <i class="fa fa-arrow-right"></i>
                 </button>
+                
      </div>
                <div class="slider-content-wrapper swiper3">
                 <div class="swiper-wrapper">
@@ -406,14 +411,14 @@
                             <div class="img-content">
                                 <h2><i class="fa fa-location-dot"></i>Venice</h2>
                                 <div class="hidden-content-carousel">
-                                <span><i class="fa fa-clock"></i> 03 Days </span>
-                                <span><i class="fa fa-user"></i> 10+ </span>
+                                <span><i class="fa fa-clock"></i> 7 Days </span>
+                                <span><i class="fa fa-user"></i> 4 </span>
                                 <span><i class="fa fa-location-dot"></i> Italy </span>
                             </div>
                         </div>
                     </div>
                     <div class="price-label">
-                        <p>$5.500</p>
+                        <p>$1000</p>
                     </div>
                 </div>
                 <div class="carousel swiper-slide">
@@ -422,14 +427,14 @@
                         <div class="img-content">
                             <h2><i class="fa fa-location-dot"></i>Rome</h2>
                             <div class="hidden-content-carousel">
-                            <span><i class="fa fa-clock"></i> 04 Days </span>
-                            <span><i class="fa fa-user"></i> 8+ </span>
+                            <span><i class="fa fa-clock"></i> 10 Days </span>
+                            <span><i class="fa fa-user"></i> 4 </span>
                             <span><i class="fa fa-location-dot"></i> Italy </span>
                         </div>
                     </div>
                 </div>
                 <div class="price-label">
-                    <p>$3.300</p>
+                    <p>$1000</p>
                 </div>
             </div>
             <div class="carousel swiper-slide">
@@ -439,13 +444,13 @@
                         <h2><i class="fa fa-location-dot"></i>Milan</h2>
                         <div class="hidden-content-carousel">
                         <span><i class="fa fa-clock"></i>04 Days</span>
-                        <span><i class="fa fa-user"></i>5+ </span>
+                        <span><i class="fa fa-user"></i>4 </span>
                         <span><i class="fa fa-location-dot"></i>Italy </span>
                     </div>
                 </div>
             </div>
             <div class="price-label">
-                <p>$2.750</p>
+                <p>$1000</p>
             </div>
         </div>
         <div class="carousel swiper-slide">
@@ -455,13 +460,13 @@
                     <h2><i class="fa fa-location-dot"></i>Bari</h2>
                     <div class="hidden-content-carousel">
                     <span><i class="fa fa-clock"></i>07 Days</span>
-                    <span><i class="fa fa-user"></i>8+ </span>
+                    <span><i class="fa fa-user"></i>4 </span>
                     <span><i class="fa fa-location-dot"></i>Italy </span>
                 </div>
             </div>
         </div>
         <div class="price-label">
-            <p>$4.350</p>
+            <p>$1000</p>
         </div>
     </div>
            
@@ -472,13 +477,13 @@
                             <h2><i class="fa fa-location-dot"></i>Genoa</h2>
                             <div class="hidden-content-carousel">
                             <span><i class="fa fa-clock"></i>09 Days</span>
-                            <span><i class="fa fa-user"></i>10+</span>
+                            <span><i class="fa fa-user"></i>4</span>
                             <span><i class="fa fa-location-dot"></i>Italy</span>
                         </div>
                     </div>
                 </div>
                 <div class="price-label">
-                    <p>$3.050</p>
+                    <p>$1000</p>
                 </div>
             </div>
         </div>
@@ -496,13 +501,13 @@
                         <h2><i class="fa fa-location-dot"></i>Agra</h2>
                          <div class="hidden-content-carousel">
                          <span><i class="fa fa-clock"></i> 07 Days</span>
-                         <span><i class="fa fa-user"></i> 12+ </span>
+                         <span><i class="fa fa-user"></i> 2 </span>
                          <span><i class="fa fa-location-dot"></i> India </span>
                      </div>
                  </div>
              </div>
              <div class="price-label">
-                 <p>$1.300</p>
+                 <p>$500</p>
              </div>
          </div>
          <div class="carousel swiper-slide">
@@ -512,13 +517,13 @@
                     <h2><i class="fa fa-location-dot"></i>Jaipur</h2>
                      <div class="hidden-content-carousel">
                      <span><i class="fa fa-clock"></i> 04 Days</span>
-                     <span><i class="fa fa-user"></i> 8+ </span>
+                     <span><i class="fa fa-user"></i> 2 </span>
                      <span><i class="fa fa-location-dot"></i> India</span>
                  </div>
              </div>
          </div>
          <div class="price-label">
-             <p>$1.800</p>
+             <p>$500</p>
          </div>
         </div>
         <div class="carousel swiper-slide">
@@ -528,13 +533,13 @@
                 <h2><i class="fa fa-location-dot"></i>Ahmedabad</h2>
                  <div class="hidden-content-carousel">
                  <span><i class="fa fa-clock"></i> 04 Days</span>
-                 <span><i class="fa fa-user"></i> 5+ </span>
+                 <span><i class="fa fa-user"></i> 2 </span>
                  <span><i class="fa fa-location-dot"></i> India</span>
              </div>
          </div>
         </div>
         <div class="price-label">
-         <p>$1.150</p>
+         <p>$500</p>
         </div>
         </div>
         <div class="carousel swiper-slide">
@@ -544,13 +549,13 @@
             <h2><i class="fa fa-location-dot"></i>Goa</h2>
              <div class="hidden-content-carousel">
              <span><i class="fa fa-clock"></i> 07 Days</span>
-             <span><i class="fa fa-user"></i> 8+ </span>
+             <span><i class="fa fa-user"></i> 2 </span>
              <span><i class="fa fa-location-dot"></i> India </span>
          </div>
         </div>
         </div>
         <div class="price-label">
-        <p>$19.50</p>
+        <p>$500</p>
         </div>
         </div>
         
@@ -561,13 +566,13 @@
                     <h2><i class="fa fa-location-dot"></i>Varanasi</h2>
                      <div class="hidden-content-carousel">
                      <span><i class="fa fa-clock"></i> 09 Days</span>
-                     <span><i class="fa fa-user"></i> 10+ </span>
+                     <span><i class="fa fa-user"></i> 4 </span>
                      <span><i class="fa fa-location-dot"></i> India </span>
                  </div>
              </div>
          </div>
          <div class="price-label">
-             <p>$3050</p>
+             <p>$1000</p>
         
         </div>
             </div> 
@@ -602,9 +607,10 @@
            
                     </div>
                 </ul>
-                <button type="button" class="primary-btn">
-                               ALL Tours <i class="fa fa-arrow-right"></i>
-                           </button>
+                <button type="button" class="primary-btn" onclick="window.location.href='tours.html'">
+                    ALL Tours <i class="fa fa-arrow-right"></i>
+                </button>
+                
                        </div>
            
                    </div>
@@ -621,7 +627,7 @@
                         <div class="carousel swiper-slide">
                             <img src="./img/114.jpg" alt="" />
                             <div class="carousel-img-overlay">
-                                <div class="tour-img-content"> <!-- Corrected "clas" to "class" -->
+                                <div class="tour-img-content"> 
                                     <h2>London</h2>
                                     <p class="lead">Historic, cosmopolitan, diverse, cultural, bustling.</p>
                                 </div>
@@ -633,7 +639,7 @@
                         <div class="carousel swiper-slide">
                             <img src="./img/52.jpg" alt="" />
                             <div class="carousel-img-overlay">
-                                <div class="tour-img-content"> <!-- Corrected "clas" to "class" -->
+                                <div class="tour-img-content"> 
                                     <h2>Disneyland</h2>
                                     <p class="lead">Magical, fun-filled, nostalgic, enchanting, joyful</p>
                                 </div>
@@ -645,7 +651,7 @@
                         <div class="carousel swiper-slide">
                             <img src="./img/55.jpeg" alt="" />
                             <div class="carousel-img-overlay">
-                                <div class="tour-img-content"> <!-- Corrected "clas" to "class" -->
+                                <div class="tour-img-content"> 
                                     <h2>New York</h2>
                                     <p class="lead">Vibrant, iconic, bustling, diverse, unforgettable</p>
                                 </div>
@@ -657,7 +663,7 @@
                         <div class="carousel swiper-slide">
                             <img src="./img/115.jpg" alt="" />
                             <div class="carousel-img-overlay">
-                                <div class="tour-img-content"> <!-- Corrected "clas" to "class" -->
+                                <div class="tour-img-content"> 
                                     <h2>Burj Khalifa</h2>
                                     <p class="lead">Breathtaking views from observation deck</p>
                                 </div>
@@ -669,7 +675,7 @@
                         <div class="carousel swiper-slide">
                             <img src="./img/113.jpg" alt="" />
                             <div class="carousel-img-overlay">
-                                <div class="tour-img-content"> <!-- Corrected "clas" to "class" -->
+                                <div class="tour-img-content"> 
                                     <h2>Singapore</h2>
                                     <p class="lead">Modern, clean, diverse, vibrant, efficient</p>
                                 </div>
@@ -695,7 +701,7 @@
             </div>
         </section>
 
-
+<!--footer contact-->
         <footer id="footer">
             <div class="container">
                 <div class="footer-content">
@@ -715,7 +721,7 @@
                         </div>
                         <div class="content">
                             <p class="lead">Write for us</p>
-                            <p>shujaanat06@gmail.com</p>
+                            <a class="aaa" href="https://shujaanat06@gmail.com">tripseum@gmail.com</a>
         
                         </div>
                     </div>
@@ -740,7 +746,7 @@
                         </p>
                         <div class="social-icons">
     
-                            <a href="https://www.facebook.com/ramisa.salwa" target="_blank">
+                            <a href="#" target="_blank">
                                 <i class="fa-brands fa-facebook"></i>
                             </a>
                             <a href="https://www.linkedin.com/in/tahsin-shuborna" target="_blank">
@@ -759,11 +765,12 @@
                     <div class="links">
                         <h2>Quick Links</h2>
                         <ul>
-                            <Li><a herf="#">About</a></Li>
-                            <Li><a herf="#">Tour</a></Li>
-                            <Li><a herf="#">Destination</a></Li>
-                            <Li><a herf="#">Blog</a></Li>
-                            <Li><a herf="#">Contact</a></Li>
+                            
+                            <Li><a href="index.html">About</a></Li>
+                            <Li><a href="tours.html">Tour</a></Li>
+                            <Li><a href="destination.html">Destination</a></Li>
+                            <Li><a href="blog.html">Blog</a></Li>
+                            <Li><a href="contact.html">Contact</a></Li>
                         </ul>    
                     </div>
                     <div class="subscribe">
