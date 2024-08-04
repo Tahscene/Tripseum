@@ -17,7 +17,9 @@
             <nav>
                 <div class="logo">
                  
- </div>
+
+
+                </div>
                 <ul>
                     <div class="btn">
                         <i class="fas fa-times close-btn"></i>
@@ -30,6 +32,8 @@
                     <li><a href="contact.html">Contact</a></li>
                     <li><a href="index.php">Login</a></li>
                     <li><a href="register.php">Sign Up</a></li>
+                    <li><a href="signup.php">Sign Up(Admin)</a></li>
+                    <li><a href="login.php">Login(Admin)</a></li>
                 </ul>
                 <div class="btn">
                     <i class="fas fa-bars menu-btn"></i>
@@ -78,30 +82,48 @@
     </main>
     <section id="location-search">
         <div class="container">
-        <div class="form-wrapper">
-            <form action="#">
-                <input type="text" placeholder="Where to ?" class="form-control"/>
-                <select class="form-control">
-                    <option value="Destination"> Destination</option>
-                    <option value="Destination"> India</option>
-                    <option value="Destination">Italy </option>
-                    <option value="Destination"> Bangladesh</option>
-                    <option value="Destination"> France</option>
-                    <option value="Destination"> Maldives</option>
-                    <option value="Destination"> USA</option>
-                </select>
-                <select class="form-control">
-                    <option value="Duration"> Duration</option>
-                    <option value="Day-1">5 Day Tour</option>
-                    <option value="2-4 Days">5-10 Days Tour</option>
-                    <option value="5-7 Days">10-15 Days Tour</option>
-                    <option value="7+ Days"> 15+ Days</option>
-                </select>
-                <button type="button" class="primary-btn">Search Now</button>
-            </form>
+            <div class="form-wrapper">
+                <form id="searchForm" action="#">
+                    <input type="text" placeholder="Where to?" class="form-control"/>
+                    <select id="destinationSelect" class="form-control">
+                        <option value="">Destination</option>
+                        <option value="india.html">India</option>
+                       
+                        <option value="france1.html">France</option>
+                        <option value="maldives.html">Maldives</option>
+                        <option value="bd1.html">Bangladesh</option>
+                        <option value="canada.html">Canada</option>
+                        <option value="greece1.html">Greece</option>
+                        <option value="portugal.html">Portugal</option>
+
+
+
+
+                    </select>
+                    <select class="form-control">
+                        <option value="">Duration</option>
+                        <option value="Day-1">1 Day Tour</option>
+                        <option value="2-4 Days">2-4 Days Tour</option>
+                        <option value="5-7 Days">5-7 Days Tour</option>
+                        <option value="7+ Days">7+ Days</option>
+                    </select>
+                    <button type="button" class="primary-btn" onclick="search()">Search Now</button>
+                </form>
+            </div>
         </div>
-        </div>
- </section>
+    </section>
+    
+    <script>
+        function search() {
+            var destination = document.getElementById('destinationSelect').value;
+            if (destination) {
+                window.location.href = destination;
+            }
+        }
+    </script>
+    
+
+
 
  <!--about-->
  <section id="about">
