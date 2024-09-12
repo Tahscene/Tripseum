@@ -81,4 +81,55 @@
     </div>
 </body>
 </html>
- 
+ this is register.php . use password hashing. also edit the login.php <?php
+
+$con = mysqli_connect("localhost", "root", "", "tutorialss");
+
+
+if (!$con) {
+    die("Connection failed: " . mysqli_connect_error());
+}
+
+
+$id = isset($_GET['id']) ? intval($_GET['id']) : 0;
+
+
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    if ($id > 0) {
+        $name = mysqli_real_escape_string($con, $_POST['name']);
+        $email = mysqli_real_escape_string($con, $_POST['email']);
+        $destination = mysqli_real_escape_string($con, $_POST['destination']);
+        $departure_date = mysqli_real_escape_string($con, $_POST['departure_date']);
+        $return_date = mysqli_real_escape_string($con, $_POST['return_date']);
+        
+        $update_sql = "UPDATE booking SET name='$name', email='$email', destination='$destination', departure_date='$departure_date', return_date='$return_date' WHERE id=$id";
+        
+        if (mysqli_query($con, $update_sql)) {
+            echo "Record updated successfully.<br>";
+        } else {
+            echo "Error updating record: " . mysqli_error($con) . "<br>";
+        }
+    } else {
+        echo "Invalid ID provided for update.<br>";
+    }
+}
+
+
+if ($id > 0) {
+    $sql = "SELECT id, name, email, destination, departure_date, return_date FROM booking WHERE id=$id";
+    $result = mysqli_query($con, $sql);
+
+
+    if (!$result) {
+        die("Query failed: " . mysqli_error($con));
+    }
+
+    $row = mysqli_fetch_assoc($result);
+
+    if (!$row) {
+        die("Record not found.");
+    }
+} else {
+    die("Invalid ID provided.");
+}
+?>

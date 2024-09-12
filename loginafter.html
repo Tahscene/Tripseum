@@ -22,17 +22,19 @@
 
                 </div>
                 <ul>
-                  
+                    <div class="btn">
+                        <i class="fas fa-times close-btn"></i>
+                    </div>
                     <li><a href="index.html">Home</a></li>
                     <li><a href="tours.html">Book a Tour</a></li>
                     <li><a href="destination.html">Destination</a></li>
                     <li><a href="gallery.html">Gallery</a></li>
                     <li><a href="contactindex.php">Contact</a></li>
-                    <li><a href="index.php">Login</a></li>
-                    <li><a href="register.php">Sign Up</a></li>
+
 
                 </ul>
-             
+                <div class="btn">
+                    <i class="fas fa-bars menu-btn"></i>
                 </div>
             </nav>
         </div>
@@ -115,7 +117,7 @@
             var locationSelect = document.getElementById('locationSelect');
             var destination = document.getElementById('destinationSelect').value;
 
-            locationSelect.innerHTML = '<option value="">Where to?</option>'; // Clear previous options
+            locationSelect.innerHTML = '<option value="">Where to?</option>'; 
 
             if (destination === 'bd1.html') {
                 locationSelect.innerHTML += '<option value="dhaka">Dhaka</option>';
@@ -177,7 +179,7 @@
 
 
 
-   
+  
     <section id="about">
         <div class="container">
             <div class="about-container-wrapper">
@@ -223,7 +225,7 @@
             </div>
         </div>
     </section>
-
+   
     <section id="choose-place">
         <div class="container">
             <p class="heading-normal-txt">CHOOSE YOUR PLACE</p>
@@ -309,7 +311,7 @@
             </div>
         </div>
     </section>
-   
+    
     <section id="static-counter">
         <div class="container">
             <div class="static-wrapper">
@@ -336,7 +338,7 @@
             </div>
         </div>
     </section>
-    <!--destination-->
+   
     <section id="top-destination">
         <div class="container">
             <p class="heading-normal-txt">TOP DESTINATION</p>
@@ -409,7 +411,7 @@
         </div>
     </section>
 
-    
+   
     <section id="costa-victoria">
 
 
@@ -430,7 +432,7 @@
         </div>
 
     </section>
-    
+   
     <section id="travel-countries">
         <div class="container">
             <p class="heading-normal-txt">MOST POPULAR</p>
