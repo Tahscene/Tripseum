@@ -71,12 +71,19 @@ the destinations.
   <li><strong>Profile Management:</strong> Enable users to create and manage their profiles, view booking history, and update personal information.</li>
   <li><strong>Search and Filter Functionality:</strong> Provide advanced search and filtering options to help users find the perfect tour package.</li>
   <li><strong>Promotions and Discounts:</strong> Attract users with special offers and discounts displayed on the website.</li>
-  <li><strong>Tour Listings:</strong>Develop a blog/travel guide section with articles, tips and travel guides to engage users.</li>
+  <li><strong>Tour Listings:</strong> Develop a blog/travel guide section with articles, tips and travel guides to engage users.</li>
   <li><strong>Admin Panel:</strong> Admin can add packages to the website from certain hotels and travel agencies.</li>
   <li><strong>Feedback:</strong> Users can also contact us by sending an email or phoning us directly.</li>
 </ul>
 
+<h2>💻 Usage Instructions</h2>
+<ol>
+  <li>Navigate to the homepage and explore the destinations.</li>
+  <li>Sign up for a new account or log in if you already have an account.</li>
+  <li>Search for a destination, fill in your trip details, and make a booking.</li>
+</ol>
 <h2>🤝 Contributions</h2>
-<p>Feel free to contribute to this project by submitting a pull request! We welcome new ideas and enhancements.</p>
+<p>Feel free to contribute, raise issues 🛠️, or suggest features 🚀 by contacting me or submitting a pull request! ✨</p>
+
 
 
