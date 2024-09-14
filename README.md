@@ -1,22 +1,27 @@
 <h1>🌍 Your Passport to Adventure :<strong> Tripseum Awaits</strong> 🏖️</h1>
-<p>Explore a world of travel experiences with <strong>Tripseum</strong>, your ultimate guide to finding the perfect destination! ✈️🌎</p>
+<p>Explore a world of travel experiences with <strong>Tripseum</strong>, your ultimate guide to finding the perfect destination! ✈️</p>
 <h2> 📄 Project Overview</h2>
-
-Tourism and travel are popular among people all around the world. Finding the
-ideal venues might be tough for many people. To handle this issue, we 
-created our tours and travel website **Tripseum** which provides the best locations
-among others. This website will allow users to book their ideal vacation within
-their price range and include highlights of some significant locations with
-pictures. Through a single dynamic website, **Tripseum** enables users to book
+<table border="0">
+  <tr>
+    <td align="center">
+      Tourism and travel are popular among people all around the world. Finding the ideal venues might be tough for many people. To handle this issue, we created our tours and travel website Tripseum which provides the best locations among others. This website will allow users to book their ideal vacation withintheir price range and include highlights of some significant locations with pictures. Through a single dynamic website, Tripseum enables users to book
 tours from anywhere in the world and provides comprehensive information on
 the destinations.
+    </td>
+    <td align="center">
+      YouTube video of Tripseum
+      <a href="http://www.youtube.com/watch?v=2ltVf2EscmM">
+        <img src="http://img.youtube.com/vi/2ltVf2EscmM/0.jpg" alt="YouTube thumbmnail for Stargate" />
+      </a>
+    </td>
+  </tr>
+</table>
+
 
 <h2> 🖼️ Screenshots</h2>
 <img src="path_to_your_screenshot.png" alt="Tripseum Screenshot">
 
-<h2>📹 Project Demo</h2>
-<p>Watch a quick demo of the project in action:  
-<a href="your_youtube_video_link">YouTube Video Link</a></p>
+
 
 <h2>🚀 Getting Started</h2>
 
