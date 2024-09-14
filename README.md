@@ -62,7 +62,7 @@ the destinations.
 
 <h2>📝 Project Report</h2>
 <p>For detailed information on the project, features, and implementation, refer to the project report:  
-<a href="[your_google_drive_report_link](https://drive.google.com/file/d/1ZmObNM0us8FGoVYjRndAA_hzaxzXslcq/view?usp=sharing)">Google Drive Link</a></p>
+<a href="https://drive.google.com/file/d/1ZmObNM0us8FGoVYjRndAA_hzaxzXslcq/view?usp=sharing">Google Drive Link</a></p>
 
 <h2>🎨 Features</h2>
 <ul>
