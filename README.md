@@ -10,7 +10,7 @@ the destinations.
     </td>
     <td align="center">
       YouTube video of Tripseum
-      <a href="http://www.youtube.com/watch?v=2ltVf2EscmM(https://youtu.be/51FbFmxPYG0)">
+      <a href="https://youtu.be/51FbFmxPYG0">
         <img src="http://img.youtube.com/vi/2ltVf2EscmM/0.jpg" alt="YouTube thumbmnail for Stargate" />
       </a>
     </td>
