@@ -19,7 +19,29 @@ the destinations.
 
 
 <h2> 🖼️ Screenshots</h2>
-<img src="path_to_your_screenshot.png" alt="Tripseum Screenshot">
+<div style="display: flex; flex-wrap: wrap; justify-content: space-around;">
+
+  <div style="margin: 10px;">
+    <img src="https://github.com/Tahscene/Tripseum/raw/main/Screenshot%202024-09-20%20001646.png" alt="Tripseum Screenshot 1" width="300"/>
+  </div>
+  
+  <div style="margin: 10px;">
+    <img src="https://github.com/Tahscene/Tripseum/raw/main/Screenshot%202024-09-24%20230047.png" alt="Tripseum Screenshot 2" width="300"/>
+  </div>
+  
+  <div style="margin: 10px;">
+    <img src="https://github.com/Tahscene/Tripseum/raw/main/Screenshot%202024-09-24%20230313.png" alt="Tripseum Screenshot 3" width="300"/>
+  </div>
+  
+  <div style="margin: 10px;">
+    <img src="https://github.com/Tahscene/Tripseum/raw/main/Screenshot%202024-09-24%20230331.png" alt="Tripseum Screenshot 4" width="300"/>
+  </div>
+  
+  <div style="margin: 10px;">
+    <img src="https://github.com/Tahscene/Tripseum/raw/main/Screenshot%202024-09-24%20230431.png" alt="Tripseum Screenshot 5" width="300"/>
+  </div>
+
+</div>
 
 
 
