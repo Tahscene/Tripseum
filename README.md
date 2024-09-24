@@ -11,7 +11,7 @@ the destinations.
     <td align="center">
       YouTube video of Tripseum
       <a href="https://youtu.be/51FbFmxPYG0">
-        <img src="http://img.youtube.com/vi/2ltVf2EscmM/0.jpg" alt="YouTube thumbmnail for Stargate" />
+        <img src="https://github.com/Tahscene/Tripseum/blob/c0bc40527f41033ff036de6b4a9225b66899704a/Screenshot%202024-09-20%20001646.png" alt="YouTube thumbmnail for Stargate" />
       </a>
     </td>
   </tr>
@@ -63,7 +63,7 @@ the destinations.
 
 <h2>🌐 Screencast</h2>
 <p>Check out the screencast for a walkthrough of the project:  
-<a href="your_screencast_link">Screencast Link</a></p>
+<a href="https://youtu.be/51FbFmxPYG0">Screencast Link</a></p>
 
 <h2>📝 Project Report</h2>
 <p>For detailed information on the project, features, and implementation, refer to the project report:  
